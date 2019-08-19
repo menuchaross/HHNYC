@@ -4,10 +4,24 @@
     xmlns="http://schemas.nativescript.org/tns.xsd">
 
     <ActionBar class="action-bar">
-        <Label class="action-bar-title" text="wifi"></Label>
+        <Label class="action-bar-title" text="Wifi"></Label>
     </ActionBar>
-    <GridLayout class="page-content">
-        <Label class="page-icon fa" text="&#xf002;"></Label>
-        <Label class="page-placeholder" text="<!-- Search page content goes here -->"></Label>
-    </GridLayout>
+    <ScrollView>
+        <StackLayout>
+            <StackLayout class="wifi">
+                <Label class="label" text="Link NYC: 1694 3rd Ave New York, NY"
+                    textWrap="true" android:style="font-size: 13;"/>
+                <Label class="label" text="Link NYC: 206 E 57th St. New York, NY"
+                    textWrap="true" android:style="font-size: 13;"/>
+                <Label class="label" text="Link NYC: 801-819 Amsterdam Ave. New York, NY"
+                    textWrap="true" android:style="font-size: 13;"/>
+                <Label class="label" text="Link NYC: 8th Ave and West 58th St. New York, NY"
+                    textWrap="true" android:style="font-size: 13;"/>
+                <Label class="label" text="Link NYC: 392 2nd Ave. New York, NY"
+                    textWrap="true" android:style="font-size: 13;"/>
+                <Label class="label" text="Link NYC: 254 W 14th St. New York, NY"
+                    textWrap="true" android:style="font-size: 13;"/>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
 </Page>
