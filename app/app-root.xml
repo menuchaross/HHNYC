@@ -1,0 +1,21 @@
+<TabView androidTabsPosition="bottom">
+    <TabViewItem title="About" ios:iconSource="res://tabIcons/home"
+        android:iconSource="res://home" android:style="width: 5; height: 5; font-size: 10;">
+        <Frame defaultPage="about/about-page"></Frame>
+    </TabViewItem>
+
+    <TabViewItem title="Shelters" ios:iconSource="res://tabIcons/browse"
+        android:iconSource="res://browse" android:style="width: 5; height: 5; font-size: 10;">
+        <Frame defaultPage="shelters/shelters-page"></Frame>
+    </TabViewItem>
+
+    <TabViewItem title="WIFi" ios:iconSource="res://tabIcons/search"
+        android:iconSource="res://search" android:style="width: 5; height: 5; font-size: 10;">
+        <Frame defaultPage="wifi/wifi-page"></Frame>
+    </TabViewItem>
+
+    <TabViewItem title="Food" ios:iconSource="res://tabIcons/search"
+        android:iconSource="res://search" android:style="width: 5; height: 5; font-size: 10;">
+        <Frame defaultPage="food/food-page"></Frame>
+    </TabViewItem>
+</TabView>

@@ -1,0 +1,18 @@
+<Page
+    class="page"
+    navigatingTo="onNavigatingTo"
+    xmlns="http://schemas.nativescript.org/tns.xsd">
+
+    <ActionBar class="action-bar">
+        <Label class="action-bar-title" text="Shelters"></Label>
+    </ActionBar>
+    <Label id="l" text="Womens" android:style="font-size: 13;"/>
+    <Label id="l" text="Lenox Hill Neighborhood House Women’s Mental Health Shelter643 Park Ave, New York, NY 10065"
+        textWrap="true" android:style="font-size: 13;"/>
+    <Label id="l" text="Neighborhood Coalition for Shelter 921 Madison Ave, New York, NY 10021"
+        textWrap="true" android:style="font-size: 13;"/>
+    <Label id="l" text="Valley Lodge 340 W 85th St, New York, NY 10025"
+        textWrap="true" android:style="font-size: 13;"/>
+    <Label id="l" text="*Jennie Clark Residence 183 E 100th St, New York, NY 10029"
+        textWrap="true" android:style="font-size: 13;"/>
+</Page>

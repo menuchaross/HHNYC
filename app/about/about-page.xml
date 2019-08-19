@@ -1,0 +1,12 @@
+<Page
+    class="page"
+    navigatingTo="onNavigatingTo"
+    xmlns="http://schemas.nativescript.org/tns.xsd">
+
+    <ActionBar class="action-bar">
+        <Label class="action-bar-title" text="About"></Label>
+    </ActionBar>
+
+    <Label id="l" text="We are a group of girls who are a part of the Girls Who Code summer immersion program. We wanted to use what we learned about coding to develop an android app that can show all available shelters, organizations, and resources available for people who are homeless or in very financially difficult situations. We hope to bring attention to a persisting issue and to provide a simple means to access the help that is available."
+        textWrap="true" android:style="padding-top: 100; font-size: 13;"/>
+</Page>
