@@ -7,11 +7,22 @@
         <Label class="action-bar-title" text="Food"></Label>
     </ActionBar>
 
-    <ListView items="{{ items }}" itemTap="onItemTap" class="list-group">
-        <ListView.itemTemplate>
-            <StackLayout orientation="horizontal" class="list-group-item">
-                <Label text="{{ name }}" textWrap="true"></Label>
-            </StackLayout>
-        </ListView.itemTemplate>
-    </ListView>
+    <ScrollView>
+        <StackLayout class="kitchen">
+        <Label text="Holy Apostles Soup Kitchen 296 9th Ave, New York, NY 10001"
+            textWrap="true" android:style="font-size: 13;"/>
+        <Label text="Project Renewal 3rd Street Men’s Shelter: 8 E 3rd St #8908 New York, NY 10003"
+            textWrap="true" android:style="font-size: 13;"/>
+        <Label text="HRA Men’s Shelter: 400 E 30th St. New York, NY 10016"
+            textWrap="true" android:style="font-size: 13;"/>
+        <Label text="Project Renewal Inc: 200 Varich St. New York, NY 10014"
+            textWrap="true" android:style="font-size: 13;"/>
+        <Label text="New York City Adult Protective: 109 E 16th St. New York, NY 10003"
+            textWrap="true" android:style="font-size: 13;"/>
+        <Label text="Mainchance Drop-In Center: 126 E 32nd St. New York, NY 10016"
+            textWrap="true" android:style="font-size: 13;"/>
+        <Label text="Samaritan Village: 225 E 53rd St. New York, NY 1002"
+            textWrap="true" android:style="font-size: 13;"/>
+    </StackLayout>
+    </ScrollView>
 </Page>

@@ -6,13 +6,61 @@
     <ActionBar class="action-bar">
         <Label class="action-bar-title" text="Shelters"></Label>
     </ActionBar>
-    <Label id="l" text="Womens" android:style="font-size: 13;"/>
-    <Label id="l" text="Lenox Hill Neighborhood House Women’s Mental Health Shelter643 Park Ave, New York, NY 10065"
-        textWrap="true" android:style="font-size: 13;"/>
-    <Label id="l" text="Neighborhood Coalition for Shelter 921 Madison Ave, New York, NY 10021"
-        textWrap="true" android:style="font-size: 13;"/>
-    <Label id="l" text="Valley Lodge 340 W 85th St, New York, NY 10025"
-        textWrap="true" android:style="font-size: 13;"/>
-    <Label id="l" text="*Jennie Clark Residence 183 E 100th St, New York, NY 10029"
-        textWrap="true" android:style="font-size: 13;"/>
+    <ScrollView>
+        <StackLayout>
+            <StackLayout class="everyone">
+                <Label class="label bold" text="For everyone:" android:style="font-size: 13;" class="bold" />
+                <Label class="label" text="Project Renewal Clinton Residence 448 W 48th St, New York, NY 10036"
+                    textWrap="true" android:style="font-size: 13;"/>
+                <Label class="label" text="Parkview 55 W 110th St, New York, NY 10026"
+                    textWrap="true" android:style="font-size: 13;"/>
+                <Label class="label" text="Palladia, Inc - Home Base 2276 Third Ave, New York, NY 10029"
+                    textWrap="true" android:style="font-size: 13;"/>
+                <Label class="label" text="Palladia, Inc - 126th St Shelter 35 W 126th St, New York, NY 10027"
+                    textWrap="true" android:style="font-size: 13;"/>
+                <Label class="label" text="Palladia 205 W 135th St, New York, NY 10030"
+                    textWrap="true" android:style="font-size: 13;"/>
+                <Label class="label" text="Adam Clayton Powell Jr. Homeless Shelter 2332 Adam Clayton Powell Jr Blvd, New York, NY 10030"
+                    textWrap="true" android:style="font-size: 13;"/>
+                <Label class="label" text="West Harlem Residence 138 W 143rd St, New York, NY 10030"
+                    textWrap="true" android:style="font-size: 13;"/>
+                <Label class="label" text="New York City Rescue Mission: 90 Lafayette St, New York, NY 10013"
+                    textWrap="true" android:style="font-size: 13;"/>
+                <Label class="label" text="Common Ground Andrews: 197 Bowery New York, NY 10002"
+                    textWrap="true" android:style="font-size: 13;"/>
+                <Label class="label" text="Henry St Settlement Urban Family Center: 130 Baruch Pl, New York, NY 10003"
+                    textWrap="true" android:style="font-size: 13;"/>
+                <Label class="label" text="George Daly House: 269 E 4th St. New York, NY 10009"
+                    textWrap="true" android:style="font-size: 13;"/>
+                <Label class="label" text="Nazareth Housing: 206 E 4th St. New York, NY 10009, 519 E 11th St. New York, NY 10009, 137 E 2nd St. New York, NY 10009"
+                    textWrap="true" android:style="font-size: 13;"/>
+                <Label class="label" text="Henry St Settlement Urban Family Center: 130 Baruch Pl, New York, NY 10003"
+                    textWrap="true" android:style="font-size: 13;"/>
+            </StackLayout>
+            <StackLayout class="women">
+                <Label class="label bold" text="Women only:" android:style="font-size: 13;"/>
+                <Label class="label" text="Lenox Hill Neighborhood House Women’s Mental Health Shelter643 Park Ave, New York, NY 10065"
+                    textWrap="true" android:style="font-size: 13;"/>
+                <Label class="label" text="Neighborhood Coalition for Shelter 921 Madison Ave, New York, NY 10021"
+                    textWrap="true" android:style="font-size: 13;"/>
+                <Label class="label" text="Valley Lodge 340 W 85th St, New York, NY 10025"
+                    textWrap="true" android:style="font-size: 13;"/>
+                <Label class="label" text="*Jennie Clark Residence 183 E 100th St, New York, NY 10029"
+                    textWrap="true" android:style="font-size: 13;"/>
+            </StackLayout>
+            <StackLayout class="men">
+                <Label class="label bold" text="Men only:" android:style="font-size: 13;"/>
+                <Label class="label bold" text="Holy Apostles Soup Kitchen 296 9th Ave, New York, NY 10001 10:30- 12:30PM All WEEKDAYS"
+                    textWrap="true" android:style="font-size: 13;"/>
+                <Label class="label" text="St. Joe’s Soup Kitchen 371 6th Ave, New York, NY 10014 1:30-3PM SATURDAYS"
+                    textWrap="true" android:style="font-size: 13;"/>
+                <Label class="label" text="Food Bank For New York City - Community Kitchen & Food Pantry 252 W 116th St, New York, NY 10026 9AM-6PM ALL WEEKDAYS"
+                    textWrap="true" android:style="font-size: 13;"/>
+                <Label class="label" text="New York City Rescue Mission 90 Lafayette St, New York, NY 10013 OPEN 24 HOURS ALL DAY"
+                    textWrap="true" android:style="font-size: 13;"/>
+                <Label class="label" text="Community Kitchen-West Harlem 252 W 116th St, New York, NY 10026 10AM - 6PM ALL WEEKDAYS"
+                    textWrap="true" android:style="font-size: 13;"/>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
 </Page>
