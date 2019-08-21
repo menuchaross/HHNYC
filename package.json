@@ -1,6 +1,6 @@
 {
   "nativescript": {
-    "id": "org.nativescript.hhnyc",
+    "id": "com.benalterdevelopment.hhnyc",
     "tns-android": {
       "version": "6.0.0"
     },
